@@ -1,0 +1,32 @@
+##Readme
+
+El trabajo fue realizado utilizando Laravel.
+
+Al descargar el proyecto deberá ejecutarse el comando
+composer update
+que descargará la carpeta vendor y realizará
+un update del framework,
+para que el mismo funcione correctamente.
+
+Asimismo, debe crearse el archivo .env.
+referenciando al nombre de nuestra base de datos.
+
+Para ello puede utilizarse el env.example como ejemplo.
+
+Deberá también ejecutarse el comando
+php artisan key:generate
+antes de ejecutar php artisan serv,
+para crear la clave específica del proyecto.
+
+La base de datos puede crearse directamente 
+mediante el comando
+php artisan migrate
+
+Si se desea que la misma sea completada con datos falsos,
+agregar --seed en dicha sentencia.
+
+Para más dudas, contactarme al mail:
+lala_mingrone@hotmail.com.
+
+Muchas gracias por su atención.
+ 
